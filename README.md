@@ -106,7 +106,6 @@ ai-tech-task-solver-chrome-extension/
 The extension requires these permissions:
 - `activeTab`: To capture screenshots of the current page
 - `storage`: To save configuration settings
-- `scripting`: To inject content scripts
 - Host permissions for AI API endpoints
 
 ## Privacy & Security
